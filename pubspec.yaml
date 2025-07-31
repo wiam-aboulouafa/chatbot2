@@ -1,0 +1,19 @@
+name: chatbot_app
+description: A simple Flutter ChatGPT app
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  dash_chat_2: ^0.0.21
+  chat_gpt_sdk: ^2.2.8
+  logger: ^2.6.1
+
+flutter:
+  uses-material-design: true
+
+
+
